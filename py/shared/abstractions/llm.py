@@ -163,7 +163,7 @@ class GenerationConfig(R2RSerializable):
     _defaults: ClassVar[dict] = {
         "model": None,
         "temperature": 0.1,
-        "top_p": 1.0,
+        "top_p": None,
         "max_tokens_to_sample": 1024,
         "stream": False,
         "functions": None,
@@ -276,7 +276,7 @@ class GenerationConfig(R2RSerializable):
             "example": {
                 "model": "openai/gpt-4.1",
                 "temperature": 0.1,
-                "top_p": 1.0,
+                "top_p": None,
                 "max_tokens_to_sample": 1024,
                 "stream": False,
                 "functions": None,

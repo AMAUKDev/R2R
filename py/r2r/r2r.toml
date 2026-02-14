@@ -50,7 +50,6 @@ request_timeout = 60
 
   [completion.generation_config]
   temperature = 0.1
-  top_p = 1
   max_tokens_to_sample = 4_096
   stream = false
   add_generation_kwargs = { }
